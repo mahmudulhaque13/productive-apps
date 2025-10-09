@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://img.icons8.com/plasticine/100/task.png",
+    "title": "TaskFlow",
+    "companyName": "NovaTech Ltd.",
+    "id": 1,
+    "description": "TaskFlow is your ultimate productivity companion designed to streamline task management for individuals and teams. Create projects, assign deadlines, and collaborate seamlessly through real-time updates. With intelligent reminders, calendar sync, and progress tracking, TaskFlow ensures that you never miss a deadline again. Its minimalist interface focuses on what truly matters — getting things done effectively without distraction.",
+    "size": 48,
+    "reviews": 2456,
+    "ratingAvg": 4.5,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 340 },
+      { "name": "4 star", "count": 670 },
+      { "name": "5 star", "count": 1146 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/bubbles/100/dumbbell.png",
+    "title": "FitPulse",
+    "companyName": "ActiveLabs",
+    "id": 2,
+    "description": "FitPulse helps you transform your health journey by tracking workouts, steps, and calories in real time. Its AI-powered health coach analyzes your habits to create personalized fitness goals. Whether you’re running, cycling, or meditating, FitPulse keeps you motivated with daily challenges and progress reports. Integration with smartwatches and wearables ensures accurate tracking and an engaging fitness experience.",
+    "size": 62,
+    "reviews": 3870,
+    "ratingAvg": 4.7,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 850 },
+      { "name": "5 star", "count": 2530 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/dusk/64/spiral-bound-booklet.png",
+    "title": "NoteBox",
+    "companyName": "Paperless Inc.",
+    "id": 3,
+    "description": "NoteBox is a simple yet powerful note-taking app that helps you capture ideas instantly. Whether it’s a quick reminder or a detailed document, NoteBox automatically organizes your notes by tags and folders. You can sync across all devices and export notes as PDFs or Markdown files. Designed for writers, students, and professionals, NoteBox turns your scattered thoughts into structured knowledge.",
+    "size": 29,
+    "reviews": 910,
+    "ratingAvg": 4.2,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/stickers/100/photo-editor.png",
+    "title": "PhotoSmith",
+    "companyName": "PixelWave",
+    "id": 4,
+    "description": "PhotoSmith empowers photographers and creators with advanced editing tools wrapped in an intuitive design. Apply AI-enhanced filters, remove backgrounds, and adjust colors in seconds. It supports RAW files, batch editing, and real-time previews, making it ideal for both casual users and professionals. Share your creations directly on social media or export them in multiple formats without losing quality.",
+    "size": 96,
+    "reviews": 5400,
+    "ratingAvg": 4.8,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 380 },
+      { "name": "4 star", "count": 1020 },
+      { "name": "5 star", "count": 3680 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/3d-fluency/94/money.png",
+    "title": "BudgetBee",
+    "companyName": "Fintech Works",
+    "id": 5,
+    "description": "BudgetBee simplifies financial management by tracking expenses and income in real time. With smart categorization and visual reports, you can easily understand your spending habits. The app sends alerts for overspending and upcoming bills, helping you save more effectively. Its secure cloud backup and biometric lock ensure that your financial data stays protected at all times.",
+    "size": 35,
+    "reviews": 2750,
+    "ratingAvg": 4.4,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 210 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 720 },
+      { "name": "5 star", "count": 1220 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-travel-agency-travel-agency-flaticons-lineal-color-flat-icons.png",
+    "title": "Travelly",
+    "companyName": "Voyage Labs",
+    "id": 6,
+    "description": "Travelly is an all-in-one travel companion that lets you find the best flight and hotel deals globally. Plan your trips, explore local attractions, and track flight updates in real time. The app includes a built-in itinerary planner and offline map support, ensuring smooth travel experiences. Whether for business or leisure, Travelly turns trip planning into an exciting adventure.",
+    "size": 58,
+    "reviews": 3200,
+    "ratingAvg": 4.6,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1720 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/bubbles/100/programming-flag.png",
+    "title": "CodeMaster",
+    "companyName": "DevForge",
+    "id": 7,
+    "description": "CodeMaster is a mobile IDE for programmers that supports multiple languages including Python, JavaScript, and C++. It features syntax highlighting, code completion, and a built-in terminal for execution. Designed for learners and professionals, it allows you to write, test, and share code anywhere. Integration with GitHub lets developers manage repositories without leaving the app.",
+    "size": 80,
+    "reviews": 1900,
+    "ratingAvg": 4.3,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 170 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 540 },
+      { "name": "5 star", "count": 780 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/dusk/64/musical.png",
+    "title": "SoundMate",
+    "companyName": "AudioCraft",
+    "id": 8,
+    "description": "SoundMate offers an immersive music streaming experience with studio-quality sound. Enjoy curated playlists, smart recommendations, and offline playback. The app adapts to your mood using AI-based tone detection, suggesting songs that fit your emotions. It supports high-resolution audio and seamlessly integrates with Bluetooth speakers and smart home devices.",
+    "size": 72,
+    "reviews": 4800,
+    "ratingAvg": 4.9,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 140 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 3590 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/bubbles/100/meal.png",
+    "title": "MealGenie",
+    "companyName": "Kitchenly",
+    "id": 9,
+    "description": "MealGenie takes the guesswork out of meal planning. Discover recipes based on your ingredients, dietary preferences, and calorie goals. It automatically generates shopping lists and offers step-by-step cooking guidance. Whether you’re a busy parent or a fitness enthusiast, MealGenie helps you eat better and save time by simplifying meal preparation.",
+    "size": 40,
+    "reviews": 1500,
+    "ratingAvg": 4.1,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 110 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 290 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-language-learning-digital-nomad-flaticons-lineal-color-flat-icons.png",
+    "title": "Langify",
+    "companyName": "PolyLingua",
+    "id": 10,
+    "description": "Langify makes learning new languages fun and engaging. Through bite-sized lessons, pronunciation practice, and AI conversation bots, you can master any language at your own pace. The app tracks your progress and offers daily challenges to keep your motivation high. With over 40 languages supported, Langify is your ultimate global learning companion.",
+    "size": 55,
+    "reviews": 4100,
+    "ratingAvg": 4.8,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 140 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 260 },
+      { "name": "4 star", "count": 840 },
+      { "name": "5 star", "count": 2680 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/officel/80/meditation-guru.png",
+    "title": "MindSpace",
+    "companyName": "CalmCore",
+    "id": 11,
+    "description": "MindSpace is a digital sanctuary built to help you achieve mindfulness and emotional balance. It features hundreds of guided meditations, breathing exercises, and sleep stories designed by mental health experts. The app tracks your daily mood and offers personalized relaxation routines based on stress levels. With gentle visuals and soothing sounds, MindSpace helps you build focus and reduce anxiety through small daily habits.",
+    "size": 60,
+    "reviews": 2300,
+    "ratingAvg": 4.5,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 160 },
+      { "name": "3 star", "count": 310 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 1140 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-smashingstocks-circular-smashing-stocks/65/external-chatting-nature-and-ecology-smashingstocks-circular-smashing-stocks.png",
+    "title": "Chatly",
+    "companyName": "Connectify",
+    "id": 12,
+    "description": "Chatly redefines communication with its ultra-fast and private messaging system. Enjoy end-to-end encryption, voice and video calls, and the ability to send large files without compression. Chatly’s group channels allow thousands of members to stay connected, while the AI-based spam filter keeps your chats clutter-free. With elegant UI themes and cloud synchronization, Chatly is both functional and beautiful.",
+    "size": 84,
+    "reviews": 7200,
+    "ratingAvg": 4.6,
+    "downloads": 5200000,
+    "ratings": [
+      { "name": "1 star", "count": 210 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 480 },
+      { "name": "4 star", "count": 1300 },
+      { "name": "5 star", "count": 4950 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/dusk/64/open-book--v1.png",
+    "title": "BookNest",
+    "companyName": "Readify",
+    "id": 13,
+    "description": "BookNest brings together book lovers from around the world. Browse thousands of ebooks, audiobooks, and short stories across multiple genres. With personalized recommendations and daily reading goals, BookNest makes it easier than ever to build a consistent reading habit. You can highlight text, write notes, and even discuss chapters with other readers in integrated book clubs.",
+    "size": 50,
+    "reviews": 1200,
+    "ratingAvg": 4.3,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 470 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/clouds/100/security-shield-green.png",
+    "title": "SafeVault",
+    "companyName": "SecureX",
+    "id": 14,
+    "description": "SafeVault is an industry-grade password manager that protects your digital identity with end-to-end AES-256 encryption. Store passwords, credit cards, and secure notes all in one place. The app auto-fills your credentials safely across browsers and devices. With biometric authentication, password health analysis, and breach alerts, SafeVault ensures complete peace of mind in the digital world.",
+    "size": 32,
+    "reviews": 870,
+    "ratingAvg": 4.7,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 260 },
+      { "name": "5 star", "count": 410 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-healthy-life-working-stress-flaticons-flat-flat-icons-2.png",
+    "title": "EcoTrack",
+    "companyName": "GreenWorld",
+    "id": 15,
+    "description": "EcoTrack helps you live more sustainably by tracking your daily carbon footprint. Log your transportation, energy use, and diet habits to get personalized insights and eco-friendly tips. The app gamifies environmental awareness by rewarding users for making greener choices. You can also compare your progress with friends and participate in global challenges to make a positive impact.",
+    "size": 45,
+    "reviews": 640,
+    "ratingAvg": 4.2,
+    "downloads": 390000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 180 },
+      { "name": "5 star", "count": 210 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-online-learning-stay-at-home-flaticons-lineal-color-flat-icons-3.png",
+    "title": "EduHub",
+    "companyName": "LearnSphere",
+    "id": 16,
+    "description": "EduHub gives learners access to thousands of free and premium online courses across technology, business, art, and science. Interactive video lectures, live discussions, and certification options make learning enjoyable and productive. The AI study assistant personalizes your curriculum based on progress and performance, ensuring a dynamic and adaptive learning experience.",
+    "size": 77,
+    "reviews": 5100,
+    "ratingAvg": 4.8,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 320 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 3650 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-flat-flat-icons/64/external-mobile-game-gaming-ecommerce-flaticons-flat-flat-icons-2.png",
+    "title": "GameZone",
+    "companyName": "Playverse",
+    "id": 17,
+    "description": "GameZone is your ultimate gaming companion. Discover trending mobile games, watch gameplay trailers, and join discussions with other players. Stay up to date with reviews, leaderboards, and exclusive giveaways. The app’s recommendation engine suggests new games based on your interests, making it easy to explore genres you’ll love while staying connected to the gaming community.",
+    "size": 95,
+    "reviews": 8900,
+    "ratingAvg": 4.6,
+    "downloads": 7500000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 900 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 4900 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/bubbles/100/apple-watch.png",
+    "title": "HealthSync",
+    "companyName": "MediCore",
+    "id": 18,
+    "description": "HealthSync integrates seamlessly with your smartwatch and fitness devices to monitor your well-being in real time. It tracks heart rate, sleep cycles, and activity levels, and provides AI-driven recommendations for a healthier lifestyle. HealthSync also allows you to share reports with doctors securely, making it an essential health companion for the modern age.",
+    "size": 70,
+    "reviews": 3100,
+    "ratingAvg": 4.4,
+    "downloads": 1400000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 190 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 780 },
+      { "name": "5 star", "count": 1660 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/officel/80/movie.png",
+    "title": "MovieTime",
+    "companyName": "Streamify",
+    "id": 19,
+    "description": "MovieTime lets you stream your favorite movies and TV shows in HD without interruptions. Browse trending titles, create watchlists, and enjoy personalized recommendations based on your viewing habits. The app supports offline downloads, multiple profiles, and smart parental controls. With a sleek UI and lightning-fast streaming, MovieTime brings the cinema experience to your pocket.",
+    "size": 120,
+    "reviews": 6700,
+    "ratingAvg": 4.7,
+    "downloads": 6200000,
+    "ratings": [
+      { "name": "1 star", "count": 230 },
+      { "name": "2 star", "count": 260 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 4310 }
+    ]
+  },
+  {
+    "image": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-weather-forecast-smart-technology-flaticons-lineal-color-flat-icons.png",
+    "title": "Weatherly",
+    "companyName": "SkyVision",
+    "id": 20,
+    "description": "Weatherly provides hyper-local and accurate weather forecasts powered by AI prediction models. Get real-time alerts for storms, air quality, and temperature changes. The interactive radar maps and hourly breakdowns help you plan your day effectively. Whether you’re traveling or staying home, Weatherly ensures that you’re always prepared for whatever nature brings.",
+    "size": 44,
+    "reviews": 2300,
+    "ratingAvg": 4.3,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 130 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 560 },
+      { "name": "5 star", "count": 1240 }
+    ]
+  }
+]

@@ -23,7 +23,7 @@ const Banner = () => {
         </div>
         <div>
           <h1>Trusted by Millions, Built for You</h1>
-          <div className="flex justify-around ">
+          <div className="flex-col lg:flex  justify-around ">
             <div className="text-center">
               <p>Total Downloads</p>
               <h1>29.6M</h1>
