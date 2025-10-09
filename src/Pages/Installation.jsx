@@ -8,6 +8,23 @@ const Installation = () => {
     if (saveList) setInstalled(saveList);
   }, []);
 
+  const sortedItem = (() => {
+    if (sortOrder === "size-asc") {
+      return [...installed].sort((a, b) => a.downloads - b.downloads);
+    } else if (sortOrder === "size-dsc") {
+      return [...installed].sort((a, b) => b.downloads - a.downloads);
+    } else {
+      return installed;
+    }
+  })();
+
+  const handleUnInstall = (id) => {
+    const existingList = JSON.parse(localStorage.getItem("install"));
+    let updatedList = existingList.filter((app) => app.id !== id);
+    setInstalled(updatedList);
+    localStorage.setItem("install", JSON.stringify(updatedList));
+  };
+
   return (
     <div>
       <h1 className="text-center">Your Installed Apps</h1>
@@ -15,7 +32,7 @@ const Installation = () => {
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="flex justify-between">
-        <p>{installed.length} Apps Found</p>
+        <p>{sortedItem.length} Apps Found</p>
         <label className="form-control w-full max-w-xs">
           <select
             className="select select-bordered"
@@ -23,13 +40,13 @@ const Installation = () => {
             onChange={(e) => setSortOrder(e.target.value)}
           >
             <option value="none">Sort By Size</option>
-            <option value="size-dsc">High-Low</option>
             <option value="size-asc">Low-High</option>
+            <option value="size-dsc">High-Low</option>
           </select>
         </label>
       </div>
       <div className="space-y-3">
-        {installed.map((app) => (
+        {sortedItem.map((app) => (
           <div className="card card-side bg-base-100 shadow-sm">
             <figure>
               <img src={app.image} alt="Movie" />
@@ -43,7 +60,12 @@ const Installation = () => {
               </div>
 
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Uninstall</button>
+                <button
+                  onClick={() => handleUnInstall(app.id)}
+                  className="btn btn-primary"
+                >
+                  Uninstall
+                </button>
               </div>
             </div>
           </div>
