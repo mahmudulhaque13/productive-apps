@@ -1,9 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "../Components/AppCard";
 
 const Apps = () => {
-  const { apps } = useApps();
+  const [apps] = useApps();
+  const [search, setSearch] = useState("");
+  const term = search.trim().toLocaleLowerCase();
+  const searchedApps = term
+    ? apps.filter((app) => app.title.toLocaleLowerCase().includes(term))
+    : apps;
+
   return (
     <div>
       <div>
@@ -12,16 +18,19 @@ const Apps = () => {
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
         <div className="flex justify-between">
-          <p>({apps.length})Apps Found</p>
-          <input
-            className="border-1 border-gray-100"
-            type="text"
-            placeholder="search Apps"
-          />
+          <p>({searchedApps.length})Apps Found</p>
+          <label className="input">
+            <input
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              type="search"
+              placeholder="search Apps"
+            />
+          </label>
         </div>
       </div>
       <div className="gap-5  grid place-items-center grid-cols-1 mx-auto md:grid-cols-2 lg:grid-cols-4">
-        {apps.map((app) => (
+        {searchedApps.map((app) => (
           <AppCard key={app.id} app={app}></AppCard>
         ))}
       </div>

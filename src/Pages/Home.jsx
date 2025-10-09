@@ -6,7 +6,7 @@ import useApps from "../Hooks/useApps";
 
 const Home = () => {
   // const AllApps = useLoaderData();
-  const { apps, loading, error } = useApps();
+  const [apps, loading, error] = useApps();
 
   const TrendingApp = apps.slice(0, 8);
   return (
@@ -24,15 +24,15 @@ const Home = () => {
             <AppCard key={app.id} app={app}></AppCard>
           ))}
         </div>
-      </div>
-      <div className="flex justify-center items-center my-5">
-        <Link
-          className="btn btn-outline"
-          to="/apps
+        <div className="flex justify-center items-center my-5">
+          <Link
+            className="btn btn-outline"
+            to="/apps
         "
-        >
-          Show All
-        </Link>
+          >
+            Show All
+          </Link>
+        </div>
       </div>
     </div>
   );
