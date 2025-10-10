@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../Components/Banner";
-import { Link } from "react-router";
+import { Link, NavLink } from "react-router";
 import AppCard from "../Components/AppCard";
 import useApps from "../Hooks/useApps";
 
@@ -25,13 +25,9 @@ const Home = () => {
           ))}
         </div>
         <div className="flex justify-center items-center my-5">
-          <Link
-            className="btn btn-outline"
-            to="../apps
-        "
-          >
+          <NavLink className="btn btn-outline" to="/apps">
             Show All
-          </Link>
+          </NavLink>
         </div>
       </div>
     </div>

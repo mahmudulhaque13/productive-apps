@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { IoIosStar } from "react-icons/io";
+import { FiDownload } from "react-icons/fi";
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
@@ -34,7 +36,7 @@ const Installation = () => {
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="flex justify-between my-10">
-        <p>{sortedItem.length} Apps Found</p>
+        <p className="font-bold">{sortedItem.length} Apps Found</p>
         <label className="form-control w-full max-w-xs">
           <select
             className="select select-bordered"
@@ -47,24 +49,30 @@ const Installation = () => {
           </select>
         </label>
       </div>
-      <div className="space-y-3">
+      <div className="space-y-2">
         {sortedItem.map((app) => (
-          <div className="card card-side bg-base-100 shadow-sm">
+          <div className="card h-24 card-side bg-base-100 shadow-sm">
             <figure>
-              <img src={app.image} alt="Movie" />
+              <img className="h-24 w-24" src={app.image} alt="" />
             </figure>
-            <div className="card-body">
+            <div className="card-body justify-between">
               <h2 className="card-title">{app.title}</h2>
-              <div className="flex space-x-4">
-                <span>{app.downloads}</span>
-                <span>{app.ratingAvg}</span>
+              <div className="flex space-x-3">
+                <span className="flex  justify-center items-center text-green-500">
+                  <FiDownload />
+                  {app.downloads}M
+                </span>
+                <span className="flex  justify-center items-center text-orange-500">
+                  <IoIosStar />
+                  {app.ratingAvg}
+                </span>
                 <span>{app.size}mb</span>
               </div>
 
-              <div className="card-actions justify-end">
+              <div className="card-actions justify-end mb-5">
                 <button
                   onClick={() => handleUnInstall(app.id)}
-                  className="btn btn-primary"
+                  className="btn -mt-14 bg-green-500"
                 >
                   Uninstall
                 </button>

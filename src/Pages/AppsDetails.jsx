@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router";
 import useApps from "../Hooks/useApps";
 import { FiDownload } from "react-icons/fi";
 import { IoIosStar } from "react-icons/io";
 import { BiSolidLike } from "react-icons/bi";
+import { Bar, BarChart, XAxis, YAxis } from "recharts";
 
 const AppsDetails = () => {
   const { id } = useParams();
-
   const [apps, loading] = useApps();
+  const [isInstalled, setIsInstalled] = useState(false);
 
   const app = apps.find((app) => String(app.id) === id);
+
+  useEffect(() => {
+    if (!app) return;
+    const installedList = JSON.parse(localStorage.getItem("install")) || [];
+    const alreadyInstalled = installedList.some((ap) => ap.id === app.id);
+    setIsInstalled(alreadyInstalled);
+  }, [app]);
+
   if (loading) return <p>Loading...</p>;
 
   const {
@@ -25,16 +34,15 @@ const AppsDetails = () => {
   } = app || {};
 
   const handleInstall = () => {
-    const existingList = JSON.parse(localStorage.getItem("install"));
-    let updatedList = [];
-    if (existingList) {
-      const isExist = existingList.some((ap) => ap.id === app.id);
-      if (isExist) return alert("Alredy existing");
-      updatedList = [...existingList, app];
-    } else {
-      updatedList.push(app);
+    const existingList = JSON.parse(localStorage.getItem("install")) || [];
+    const isExist = existingList.some((ap) => ap.id === app.id);
+    if (isExist) {
+      setIsInstalled(true);
+      return;
     }
+    const updatedList = [...existingList, app];
     localStorage.setItem("install", JSON.stringify(updatedList));
+    setIsInstalled(true);
   };
 
   return (
@@ -74,16 +82,36 @@ const AppsDetails = () => {
               <h1 className="font-bold text-2xl">{reviews}</h1>
             </div>
           </div>
+
           <button
             onClick={handleInstall}
-            className="mt-5 bg-green-500 text-white rounded-sm p-2"
+            disabled={isInstalled}
+            className={`mt-5 p-2 rounded-sm text-white transition
+              ${
+                isInstalled
+                  ? "bg-green-500 cursor-not-allowed"
+                  : "bg-green-500 hover:bg-green-600"
+              }
+            `}
           >
-            Install Now ({size} MB)
+            {isInstalled ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>
-      <div></div>
-      <div></div>
+
+      <div>
+        <h1 className="font-bold p-10 text-xl">Ratings</h1>
+        <BarChart width={400} height={300} data={ratings}>
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Bar dataKey="count" fill="orange" />
+        </BarChart>
+      </div>
+
+      <div>
+        <h1 className="font-bold p-10 text-xl">Description</h1>
+        <p className="text-gray-500">{description}</p>
+      </div>
     </div>
   );
 };
