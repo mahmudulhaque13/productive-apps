@@ -5,6 +5,9 @@ import { FiDownload } from "react-icons/fi";
 import { IoIosStar } from "react-icons/io";
 import { BiSolidLike } from "react-icons/bi";
 import { Bar, BarChart, XAxis, YAxis } from "recharts";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+const MySwal = withReactContent(Swal);
 
 const AppsDetails = () => {
   const { id } = useParams();
@@ -34,6 +37,14 @@ const AppsDetails = () => {
   } = app || {};
 
   const handleInstall = () => {
+    Swal.fire({
+      position: "top-end",
+      icon: "success",
+      title: "Your App has been installed",
+      showConfirmButton: false,
+      timer: 1500,
+    });
+
     const existingList = JSON.parse(localStorage.getItem("install")) || [];
     const isExist = existingList.some((ap) => ap.id === app.id);
     if (isExist) {
