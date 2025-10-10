@@ -57,8 +57,8 @@ const AppsDetails = () => {
   };
 
   return (
-    <div className="bg-gray-100">
-      <div className="flex gap-10 my-10">
+    <div className="bg-gray-100 ">
+      <div className="flex flex-col lg:flex-row gap-10 my-10">
         <div>
           <img className="w-55 h-55 bg-white" src={image} alt="" />
         </div>
@@ -70,7 +70,7 @@ const AppsDetails = () => {
               <span className="text-violet-600 font-bold"> productive.io</span>
             </p>
           </div>
-          <div className="flex gap-5">
+          <div className="flex gap-10">
             <div className="flex flex-col justify-center items-center">
               <span className="text-green-500 ">
                 <FiDownload />
