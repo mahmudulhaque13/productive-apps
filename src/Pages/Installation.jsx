@@ -27,11 +27,13 @@ const Installation = () => {
 
   return (
     <div>
-      <h1 className="text-center">Your Installed Apps</h1>
-      <p className="text-center">
+      <h1 className="text-center font-bold text-4xl m-10">
+        Your Installed Apps
+      </h1>
+      <p className="text-center text-gray-500">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="flex justify-between">
+      <div className="flex justify-between my-10">
         <p>{sortedItem.length} Apps Found</p>
         <label className="form-control w-full max-w-xs">
           <select

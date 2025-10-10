@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppCard from "../Components/AppCard";
+import { CiSearch } from "react-icons/ci";
 
 const Apps = () => {
   const [apps] = useApps();
@@ -13,12 +14,14 @@ const Apps = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center">Our All Applications</h1>
-        <p className="text-center">
+        <h1 className="text-center font-bold text-4xl mt-20">
+          Our All Applications
+        </h1>
+        <p className="text-center mt-10 text-gray-500">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
-        <div className="flex justify-between">
-          <p>({searchedApps.length})Apps Found</p>
+        <div className="flex justify-between m-10">
+          <p className="font-bold">({searchedApps.length})Apps Found</p>
           <label className="input">
             <input
               value={search}

@@ -28,7 +28,9 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link className="" to="/">
+                Home
+              </Link>
             </li>
             <li>
               <Link to="/apps">Apps</Link>
@@ -38,7 +40,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost text-xl">
+        <Link to="/" className="btn btn-ghost text-xl text-[#9F62F2]">
           HERO.IO
         </Link>
       </div>
@@ -56,7 +58,15 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-        <a href="https://github.com/mahmudulhaque13" className="btn">
+        <a
+          href="https://github.com/mahmudulhaque13"
+          className="btn text-white bg-[#9F62F2]"
+        >
+          <img
+            className="h-8"
+            src="https://img.icons8.com/sf-black-filled/64/github.png"
+            alt=""
+          />
           Contribute
         </a>
       </div>
