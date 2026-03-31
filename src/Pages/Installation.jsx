@@ -70,7 +70,7 @@ const Installation = () => {
             <div className="card-body justify-between">
               <h2 className="card-title">{app.title}</h2>
               <div className="flex space-x-3">
-                <span className="flex  justify-center items-center text-green-500">
+                <span className="flex  justify-center items-center text-green-600">
                   <FiDownload />
                   {app.downloads}M
                 </span>
