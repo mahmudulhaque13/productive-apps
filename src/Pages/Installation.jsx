@@ -74,7 +74,7 @@ const Installation = () => {
                   <FiDownload />
                   {app.downloads}M
                 </span>
-                <span className="flex  justify-center items-center text-orange-500">
+                <span className="flex  justify-center items-center text-orange-600">
                   <IoIosStar />
                   {app.ratingAvg}
                 </span>
