@@ -44,7 +44,7 @@ const Installation = () => {
       <h1 className="text-center font-bold text-4xl m-10">
         Your Installed Apps
       </h1>
-      <p className="text-center text-gray-500">
+      <p className="text-center text-gray-600">
         Explore All Trending Apps on the Market developed by us
       </p>
       <div className="flex justify-between my-10">
