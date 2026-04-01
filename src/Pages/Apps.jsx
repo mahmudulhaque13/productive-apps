@@ -14,7 +14,7 @@ const Apps = () => {
   return (
     <div>
       <div>
-        <h1 className="text-center font-bold text-4xl mt-20">
+        <h1 className="text-center font-bold text-4xl mt-18">
           Our All Applications
         </h1>
         <p className="text-center mt-10 text-gray-500">
