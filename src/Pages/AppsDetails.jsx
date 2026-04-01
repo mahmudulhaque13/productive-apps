@@ -60,7 +60,7 @@ const AppsDetails = () => {
     <div className="bg-gray-100 ">
       <div className="flex flex-col lg:flex-row gap-10 my-10">
         <div>
-          <img className="w-55 h-55 bg-white" src={image} alt="" />
+          <img className="w-56 h-55 bg-white" src={image} alt="" />
         </div>
         <div>
           <div className="pb-5">
