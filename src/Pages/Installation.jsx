@@ -84,7 +84,7 @@ const Installation = () => {
               <div className="card-actions justify-end mb-5">
                 <button
                   onClick={() => handleUnInstall(app.id)}
-                  className="btn -mt-14 bg-green-600"
+                  className="btn -mt-14 bg-green-500"
                 >
                   Uninstall
                 </button>
