@@ -10,7 +10,7 @@ const AppCard = ({ app }) => {
       <div>
         <div className="card bg-base-100 w-80 shadow-sm">
           <figure className="m-auto">
-            <img className="h-46 w-48" src={image} alt="" />
+            <img className="h-46 w-46" src={image} alt="" />
           </figure>
           <div className="card-body">
             <h2 className="card-title ">{title}</h2>
